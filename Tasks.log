@@ -1,0 +1,201 @@
+INFO 2022-08-07 00:26:52,103 root  ***********************************************Task1************************************************
+INFO 2022-08-07 00:26:52,103 root  1. Read this dataset in pandas , mysql and mongodb 
+INFO 2022-08-07 00:27:37,116 root  We have successfully read the dataset in pandas
+INFO 2022-08-07 00:27:37,116 root  ***********************************************Task2************************************************
+INFO 2022-08-07 00:27:37,116 root  2.  while creting a table in mysql dont use manual approach to create it  ,always use a automation to create a table in mysql ## hint - use csvkit library to automate this task and to load a data in bulk in you mysql 
+ERROR 2022-08-07 00:27:37,163 root  1007 (HY000): Can't create database 'sqltaskworks'; database exists
+INFO 2022-08-07 00:27:37,163 root  ***********************************************Task3************************************************
+INFO 2022-08-07 00:27:37,163 root  3. convert all the dates avaible in dataset to timestamp format in pandas and in sql you to convert it in date format
+INFO 2022-08-07 00:27:37,246 root  We have successfully dates available in dataset to timestamp
+INFO 2022-08-07 00:27:37,262 root  None
+INFO 2022-08-07 00:27:37,262 root  ***********************************************Task4************************************************
+INFO 2022-08-07 00:27:37,262 root  4.  Find out in this data that how many unique id's we have
+INFO 2022-08-07 00:27:37,262 root  please find the unique ids
+INFO 2022-08-07 00:27:37,262 root  [1503960366 1624580081 1644430081 1844505072 1927972279 2022484408
+ 2026352035 2320127002 2347167796 2873212765 2891001357 3372868164
+ 3977333714 4020332650 4057192912 4319703577 4388161847 4445114986
+ 4558609924 4702921684 5553957443 5577150313 6117666160 6290855005
+ 6391747486 6775888955 6962181067 7007744171 7086361926 8053475328
+ 8253242879 8378563200 8583815059 8792009665 8877689391]
+INFO 2022-08-07 00:27:37,262 root  ***********************************************Task5************************************************
+INFO 2022-08-07 00:27:37,262 root  5.  which id is one of the active id that you have in whole dataset
+INFO 2022-08-07 00:27:37,262 root  please find the ids
+INFO 2022-08-07 00:27:37,262 root  [1624580081, 1644430081, 2873212765, 3372868164, 4020332650, 6962181067, 7007744171, 7086361926, 8253242879, 8877689391]
+INFO 2022-08-07 00:27:37,262 root  ***********************************************Task6************************************************
+INFO 2022-08-07 00:27:37,262 root  6.  how many of them have not logged there activity find out in terms of number of ids
+INFO 2022-08-07 00:27:37,262 root  please find the ids
+INFO 2022-08-07 00:27:37,262 root  6
+INFO 2022-08-07 00:27:37,262 root  ***********************************************Task7************************************************
+INFO 2022-08-07 00:27:37,262 root  7.  Find out who is the laziest person id that we have in dataset
+INFO 2022-08-07 00:27:37,262 root  please find the id
+INFO 2022-08-07 00:27:37,278 root  1503960366
+INFO 2022-08-07 00:27:37,278 root  ***********************************************Task8************************************************
+INFO 2022-08-07 00:27:37,278 root  8.  Explore over an internet that how much calories burn is required for a healthy person and find out how many healthy person we have in our dataset
+INFO 2022-08-07 00:27:37,278 root  When explored on internet we can see that 2000 calories per day required to burn
+INFO 2022-08-07 00:27:37,278 root  please find the ids
+INFO 2022-08-07 00:27:37,278 root  [1644430081, 1927972279, 2022484408, 2347167796, 2891001357, 4020332650, 4445114986, 4702921684, 5577150313, 6117666160, 6290855005, 6775888955, 6962181067, 7007744171, 7086361926, 8053475328, 8378563200, 8583815059, 8792009665, 8877689391]
+INFO 2022-08-07 00:27:37,278 root  ***********************************************Task9************************************************
+INFO 2022-08-07 00:27:37,278 root  9.  how many person are not a regular person with respect to activity try to find out those
+INFO 2022-08-07 00:27:37,278 root  please find the ids
+INFO 2022-08-07 00:27:37,278 root  0     1503960366
+1     1624580081
+2     1644430081
+3     1844505072
+4     1927972279
+5     2022484408
+6     2026352035
+7     2320127002
+8     2347167796
+9     2873212765
+10    2891001357
+11    3372868164
+12    3977333714
+15    4319703577
+16    4388161847
+17    4445114986
+18    4558609924
+19    4702921684
+20    5553957443
+21    5577150313
+22    6117666160
+23    6290855005
+24    6391747486
+25    6775888955
+26    6962181067
+27    7007744171
+28    7086361926
+29    8053475328
+30    8253242879
+31    8378563200
+32    8583815059
+33    8792009665
+34    8877689391
+Name: Id, dtype: int64
+INFO 2022-08-07 00:27:37,284 root  ***********************************************Task10***********************************************
+INFO 2022-08-07 00:27:37,284 root  10.  who is the thired most active person in this dataset find out those in pandas and in sql both .
+INFO 2022-08-07 00:27:37,284 root  please find the id
+INFO 2022-08-07 00:27:37,284 root  8877689391
+INFO 2022-08-07 00:27:37,284 root  ***********************************************Task11***********************************************
+INFO 2022-08-07 00:27:37,284 root  11.  who is the 5th most laziest person avilable in dataset find it out
+INFO 2022-08-07 00:27:37,284 root  please find the id
+INFO 2022-08-07 00:27:37,284 root  1927972279
+INFO 2022-08-07 00:38:24,243 root  ***********************************************Task1************************************************
+INFO 2022-08-07 00:38:24,243 root  1. Read this dataset in pandas , mysql and mongodb 
+INFO 2022-08-07 00:38:29,173 root  We have successfully read the dataset in pandas
+INFO 2022-08-07 00:38:29,173 root  ***********************************************Task2************************************************
+INFO 2022-08-07 00:38:29,173 root  2.  while creting a table in mysql dont use manual approach to create it  ,always use a automation to create a table in mysql ## hint - use csvkit library to automate this task and to load a data in bulk in you mysql 
+ERROR 2022-08-07 00:38:29,196 root  1007 (HY000): Can't create database 'sqltaskworks'; database exists
+INFO 2022-08-07 00:38:29,196 root  ***********************************************Task3************************************************
+INFO 2022-08-07 00:38:29,196 root  3. convert all the dates avaible in dataset to timestamp format in pandas and in sql you to convert it in date format
+INFO 2022-08-07 00:38:29,211 root  We have successfully dates available in dataset to timestamp
+INFO 2022-08-07 00:38:29,211 root  None
+INFO 2022-08-07 00:38:29,211 root  ***********************************************Task4************************************************
+INFO 2022-08-07 00:38:29,211 root  4.  Find out in this data that how many unique id's we have
+INFO 2022-08-07 00:38:29,211 root  please find the unique ids
+INFO 2022-08-07 00:38:29,227 root  [1503960366 1624580081 1644430081 1844505072 1927972279 2022484408
+ 2026352035 2320127002 2347167796 2873212765 2891001357 3372868164
+ 3977333714 4020332650 4057192912 4319703577 4388161847 4445114986
+ 4558609924 4702921684 5553957443 5577150313 6117666160 6290855005
+ 6391747486 6775888955 6962181067 7007744171 7086361926 8053475328
+ 8253242879 8378563200 8583815059 8792009665 8877689391]
+INFO 2022-08-07 00:38:29,227 root  ***********************************************Task5************************************************
+INFO 2022-08-07 00:38:29,227 root  5.  which id is one of the active id that you have in whole dataset
+INFO 2022-08-07 00:38:29,227 root  please find the ids
+INFO 2022-08-07 00:38:29,227 root  [1624580081, 1644430081, 2873212765, 3372868164, 4020332650, 6962181067, 7007744171, 7086361926, 8253242879, 8877689391]
+INFO 2022-08-07 00:38:29,227 root  ***********************************************Task6************************************************
+INFO 2022-08-07 00:38:29,227 root  6.  how many of them have not logged there activity find out in terms of number of ids
+INFO 2022-08-07 00:38:29,227 root  please find the ids
+INFO 2022-08-07 00:38:29,227 root  6
+INFO 2022-08-07 00:38:29,227 root  ***********************************************Task7************************************************
+INFO 2022-08-07 00:38:29,227 root  7.  Find out who is the laziest person id that we have in dataset
+INFO 2022-08-07 00:38:29,227 root  please find the id
+INFO 2022-08-07 00:38:29,227 root  1503960366
+INFO 2022-08-07 00:38:29,227 root  ***********************************************Task8************************************************
+INFO 2022-08-07 00:38:29,227 root  8.  Explore over an internet that how much calories burn is required for a healthy person and find out how many healthy person we have in our dataset
+INFO 2022-08-07 00:38:29,227 root  When explored on internet we can see that 2000 calories per day required to burn
+INFO 2022-08-07 00:38:29,227 root  please find the ids
+INFO 2022-08-07 00:38:29,243 root  [1644430081, 1927972279, 2022484408, 2347167796, 2891001357, 4020332650, 4445114986, 4702921684, 5577150313, 6117666160, 6290855005, 6775888955, 6962181067, 7007744171, 7086361926, 8053475328, 8378563200, 8583815059, 8792009665, 8877689391]
+INFO 2022-08-07 00:38:29,243 root  ***********************************************Task9************************************************
+INFO 2022-08-07 00:38:29,243 root  9.  how many person are not a regular person with respect to activity try to find out those
+INFO 2022-08-07 00:38:29,243 root  please find the ids
+INFO 2022-08-07 00:38:29,243 root  0     1503960366
+1     1624580081
+2     1644430081
+3     1844505072
+4     1927972279
+5     2022484408
+6     2026352035
+7     2320127002
+8     2347167796
+9     2873212765
+10    2891001357
+11    3372868164
+12    3977333714
+15    4319703577
+16    4388161847
+17    4445114986
+18    4558609924
+19    4702921684
+20    5553957443
+21    5577150313
+22    6117666160
+23    6290855005
+24    6391747486
+25    6775888955
+26    6962181067
+27    7007744171
+28    7086361926
+29    8053475328
+30    8253242879
+31    8378563200
+32    8583815059
+33    8792009665
+34    8877689391
+Name: Id, dtype: int64
+INFO 2022-08-07 00:38:29,243 root  ***********************************************Task10***********************************************
+INFO 2022-08-07 00:38:29,243 root  10.  who is the thired most active person in this dataset find out those in pandas and in sql both .
+INFO 2022-08-07 00:38:29,243 root  please find the id
+INFO 2022-08-07 00:38:29,243 root  8877689391
+INFO 2022-08-07 00:38:29,243 root  ***********************************************Task11***********************************************
+INFO 2022-08-07 00:38:29,243 root  11.  who is the 5th most laziest person avilable in dataset find it out
+INFO 2022-08-07 00:38:29,243 root  please find the id
+INFO 2022-08-07 00:38:29,243 root  1927972279
+INFO 2022-08-07 00:38:29,243 root  ***********************************************Task12***********************************************
+INFO 2022-08-07 00:38:29,243 root  12. what is a totla acumulative calories burn for a person find out
+INFO 2022-08-07 00:38:29,243 root  please find the id
+INFO 2022-08-07 00:38:29,243 root              Id  Calories
+0   1503960366     34128
+1   1624580081     25705
+2   1644430081     29164
+3   1844505072     19391
+4   1927972279     27048
+5   2022484408     29704
+6   2026352035     16266
+7   2320127002     18385
+8   2347167796     30320
+9   2873212765     20349
+10  2891001357     18187
+11  3372868164     18603
+12  3977333714     16777
+13  4020332650     98412
+14  4057192912     60913
+15  4319703577     23931
+16  4388161847     14442
+17  4445114986     31617
+18  4558609924     21962
+19  4702921684     42322
+20  5553957443     21630
+21  5577150313     36303
+22  6117666160     20993
+23  6290855005     21656
+24  6391747486     15868
+25  6775888955     24523
+26  6962181067     29249
+27  7007744171     31525
+28  7086361926     26124
+29  8053475328     31825
+30  8253242879     17556
+31  8378563200     40274
+32  8583815059     19130
+33  8792009665     24884
+34  8877689391     41414
